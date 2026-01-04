@@ -1,0 +1,38 @@
+@media (max-width: 768px) {
+    .repair-list,
+    .repair-toggle {
+        display: none;
+    }
+
+    .swiper2 {
+        display: block;
+    }
+}
+
+@media (min-width: 768px) {
+    .swiper2 {
+        display: none;
+    }
+
+    .repair-list {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 16px;
+        width: 100%;
+        color: #1B1C21;
+      }
+
+      @media (min-width: 1120px) {
+        .swiper2 {
+            display: none;
+        }
+
+        .repair-list {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 16px;
+            width: 100%;
+            color: #1B1C21;
+          }
+      }
+}
