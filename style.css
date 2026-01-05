@@ -68,6 +68,14 @@ body {
       
     }
 
+    .service-price {
+      width: 1120px;
+    }
+
+    .service-price__list {
+      width: auto;
+    }
+
     .service-price__title {
         position: relative;
         padding-top: 16px; 
@@ -89,15 +97,6 @@ body {
         background-color:#D9FFF5; 
     }
 
-    /* table {
-      width: 100%;
-      max-width: 1056px;
-      height: auto;
-      max-height: 324px;
-      margin-left: 32px;
-      border-right: 4px solid #EAEAEA ;
-
-    } */
     .service-price__table {
       width: 100%;
       height: 324px;
@@ -113,16 +112,19 @@ body {
 
     }
 
-    .service-price__button {
-      background-color: #FF3E79;
-      border: none;
-      color: #FFFFFF;
-      border-radius: 16px;
-      width: 119px;
-      height: 32px;
-      font-size: 12px;
-      font-weight: 700;
-      cursor: pointer;
+  .service-price__button {
+  background: #FF3E79;
+  color: #ffffff;
+  border: none;
+  border-radius: 16px;
+  padding: 8px 12px;
+  font-size: 12px;
+  font-weight: 600;
+
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  cursor: pointer;
       /* margin-right: 24px; */
     }
 
@@ -195,6 +197,103 @@ body {
   .repair-toggle.repair-toggle--expanded .toggle-icon--hide {
     display: inline-block;
   }
+
+  
+/* .swiper3 {
+  padding: 16px 0;
+} */
+
+/* .swiper3 .swiper-slide {
+  width: 260px;
+} */
+
+.swiper-slide {
+  width: 260px;
+}
+
+/* ===== SERVICE CARD ===== */
+.service-card {
+  background: #ffffff;
+  border: 1px solid #eaeaea;
+  border-radius: 6px;
+  padding: 16px;
+  box-sizing: border-box;
+  width: 260px;
+  height: 200px;
+}
+  /* display: flex;
+  flex-direction: column; */
+  /* justify-content: space-between;
+} */
+
+/* ===== ROWS ===== */
+.service-card__row {
+  /* display: block; */
+  margin-bottom: 34px;
+  
+}
+.service-card__value {
+  display: block;
+  font-size: 14px;
+  font-weight: 500;
+  color: #1b1c21;
+
+}
+
+/* LAST ROW (TERM + BUTTON) */
+.service-card__row--with-button {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-top: auto;
+}
+
+/* .service-card__pair {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+} */
+
+.service-card__label {
+  font-size: 14px;
+  color: #7E7E82;
+}
+
+.service-card__button {
+  background: #FF3E79;
+  color: #ffffff;
+  border: none;
+  border-radius: 16px;
+  padding: 8px 12px;
+  font-size: 12px;
+  font-weight: 600;
+
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  cursor: pointer;
+}
+
+.service-card__button img {
+  width: 12px;
+  height: 12px;
+}
+
+.swiper3 {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 20px 0;
+}
+
+.swiper-wrapper {
+  height: auto;
+}
+
+.swiper2 .swiper-slide {
+width: 260px;
+height: 160px;
+}
 
   
     

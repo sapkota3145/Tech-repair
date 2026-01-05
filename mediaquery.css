@@ -7,10 +7,21 @@
     .swiper2 {
         display: block;
     }
+    .swiper3 {
+        display: block;
+    }
+
+   .service-price__list{
+    display: none;
+   }
 }
 
 @media (min-width: 768px) {
     .swiper2 {
+        display: none;
+    }
+
+    .swiper3 {
         display: none;
     }
 

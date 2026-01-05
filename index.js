@@ -48,4 +48,14 @@ if (cards.length && btn) {
     if (!expanded) updateView();
   });
 }
+
+const Swiper3 = new Swiper('.swiper3' , {
+  slidesPerView: "auto",
+  spaceBetween: 16,
+  pagination: {
+    el: ".swiper-pagination3",
+    clickable: true,
+  },
+});
+
   
